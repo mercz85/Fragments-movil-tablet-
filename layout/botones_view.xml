@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="ExtraText"
+    android:orientation="vertical"
+    android:id="@+id/botonesScreen"
+    android:background="#99ddff"
+    >
+<Button
+    android:id="@+id/btnRojo"
+    android:text="Rojo"
+    android:layout_width = "wrap_content"
+    android:layout_height = "wrap_content"
+    android:height="50dp"
+    android:width="100dp"
+    android:background="#EE1206"/>
+<Button
+    android:id="@+id/btnAzul"
+    android:text="Azul"
+    android:height="50dp"
+    android:width="100dp"
+    android:background="#0066ff"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+</LinearLayout>
